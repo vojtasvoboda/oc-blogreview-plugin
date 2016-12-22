@@ -1,0 +1,39 @@
+review_rating:
+    tab: Review
+    label: Overall rating
+    span: full
+
+review_pros:
+    tab: Review
+    label: The good
+    span: left
+    type: textarea
+    size: large
+    comment: Each pros on new line
+
+review_cons:
+    tab: Review
+    label: The bad
+    span: right
+    type: textarea
+    size: large
+    comment: Each cons on new line
+
+review_summary:
+    tab: Review
+    label: Summary
+    span: full
+    type: textarea
+    size: large
+    comment: Overall summary
+
+review_params:
+    tab: Review Parameters
+    label: Parameters
+    type: repeater
+    form:
+        fields:
+            name:
+                label: Name
+            value:
+                label: Value

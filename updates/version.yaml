@@ -1,0 +1,4 @@
+1.0.1:
+    - First version of Blog Review
+    - post_add_reviews_fields.php
+    - create_review_parameters_table.php
